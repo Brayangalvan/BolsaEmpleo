@@ -165,6 +165,6 @@ display: none;
 }
 @media (max-width:700px){
     .logo{
-        padding: 5%;
+        padding: 5% 20%;
     }
 }
