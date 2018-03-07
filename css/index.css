@@ -1,0 +1,87 @@
+.card__action-bar button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.card {
+    position: relative;
+    width: 28%;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+    background: rgb(255,255,255);
+}
+.card__title {
+    text-align: center;
+    color: rgb(0,0,0);
+    padding-top:20px;
+    text-transform: uppercase;
+}
+.card__subtitle {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(0, 0, 255);
+}
+.card__subtitle p{
+text-decoration: none;
+}
+.card__subtitle p {
+    text-decoration: underline;
+}
+.card__text {
+    height: 40%;
+    overflow: hidden;
+    padding:5%;
+    line-height: 1.6;
+    text-align: justify;
+    font-size: 17px;
+}
+.card__action-bar {
+    width:100%;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid #E0E0E0;
+    height: 52px;
+}
+.card__button {
+    display:block;
+    line-height: 52px;
+    padding: 0 16px;
+    color: rgb(0, 0, 255);
+}
+.mas-info{
+    float: left;
+}
+.mas-info:hover{
+    background: rgb(0,0,255);
+    color: rgb(255,255,255); 
+}
+.Postulate
+{
+    float: right;
+}
+.Postulate:hover{
+    color: rgb(255,255,255); 
+    background: green;
+}
+.card--big {
+    display: inline-block;
+    height: 404px;
+    margin-left: 4%;
+    margin-top: 3% ;
+}
+.perfil{
+    padding: 2px 20px;
+}
+
+@media screen and (max-width: 870px){
+    .card--big {
+        width: 42%;
+        margin-left:4%;
+    }
+}
+
+@media screen and (max-width: 620px){
+    .card--big {
+        width: 80%;
+        margin-left:10%;
+    }
+}
