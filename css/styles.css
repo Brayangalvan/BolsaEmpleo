@@ -1,177 +1,172 @@
 * {
-box-sizing: border-box;
-margin: 0;
-padding: 0;
-border: 0px ;
-text-decoration: none;
-}
-body{
-    background: rgba(240, 240, 240, 0.7);
-}
-header {
-width: 100%;
-background: rgb(0,0,0);
-display: inline-block;
-}
-header:hover{
-    background: rgb(0,0,0);
-}
-.logo{
-    height: 80px;
-    width: 30%;
-    padding: 2%;
-    display: block;
-    float: left;
-    text-align: center;
-}
-.logo h1 a{
-    color: rgb(255,255,255);
-}
-#buscador{
-        position: absolute;
-        height: 40px;
-        top: 20px;
-        width: 30%;
-        left: 33%;
-        background: rgba(255,255,255,0.7);
-        border-radius: 2%; 
-}
-#buscador .fa-search{
-    height: 100%;
-    background: rgba(128, 128, 128, 0.4);
-    width: 13%;
-    font-size: 24px !important;
-    text-align: center;
-    color: blue;
-    padding: 2%;
-    display: flex;
-    align-items:  center;
-    justify-content:  center;
-    float: right;
-}
-#buscador .fa-search:hover{
-    background:rgba(255,255,255,0.75);
-}
-.search{
-    font-size: 20px !important;
-    height: 100%;
-    width: 87%;
-    background: transparent;
-    color: black;
-}
-.search:focus{
-    background: rgb(255,255,255);
-}
-.search:hover{
-    background: rgb(255,255,255);
-}
-#icon{
-display: none;
-}
-#menu{
-    display: block;
-    float: right;
-    list-style: none;
-}
-#menu li{
-    display: inline-block;
-}
-#menu li a{
-    color: rgb(255,255,255);
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content:  center;
-    padding: 5px;
-    float: left;
-}
-#menu li a:hover{
-    background: rgb(240, 240, 240);
-    color: blue !important;
-}
-
-.container{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0px ;
+    text-decoration: none;
+    color: rgb(0,0,0);
+    }
+    body{
+        background: rgb(255,255,255) url("../img/envia.jpg") no-repeat right top fixed;
+        background-size: 100% 100%;
+    }
+    header {
     width: 100%;
-}
-.container h1{
-    text-align: center;
-    margin: 2%;
-}
-@media (max-width:900px){
+    background: rgb(220, 221, 222);
+    display: inline-block;
+    }
     .logo{
-        border-bottom: 2px solid rgb(255,255,255);  
-        width: 100%;
-        padding: 3%;  
-    }
-	#icon {
-		height: 40px;
-		display: block;
-		margin-right: 4%;
-		border: 2px solid rgb(255, 255, 255);
-		border-radius: 10%;
-		position: absolute;
-		cursor: pointer;
-		width: 40px;
-		right: 0;
-        top: 20px;
-	}	
-	#icon span {
-		position: absolute;
-		left: 4px;
-		height: 3px;
-		background: rgb(255, 255, 255);;
-		width: 80%;
-	}
-	#icon span:nth-child(1) {
-		top: 25%;
-	}
-	#icon span:nth-child(2), #icon span:nth-child(3) {
-		top: 50%;
-	}
-	#icon span:nth-child(4) {
-		top: 75%;
-    }	
-	.activo span{
-        display: none;
-	}
-	.activo .derecha{
-		display: block;
-        transform: rotate(-45deg);
-        transition: 1s;
-		
-	}
-	.activo .izquierda{
-        transition: 1s;
-		display: block;
-		transform: rotate(45deg)
-    }
-    .invisible{
-        display: none;
+        height: 80px;
+        width: 30%;
+        padding: 2%;
+        display: block;
+        float: left;
+        text-align: center;
     }
     #buscador{
-        
-        display: inline-block;
-        position:  static;
-        width: 90%;
-        margin: 20px 5%;
+            position: absolute;
+            height: 40px;
+            top: 20px;
+            width: 30%;
+            left: 33%;
+            background: rgba(255,255,255,0.7);
+            border-radius: 2%; 
+    }
+    #buscador .fa-search{
+        height: 100%;
+        background: rgba(128, 128, 128, 0.4);
+        width: 13%;
+        font-size: 24px !important;
+        text-align: center;
+        padding: 2%;
+        display: flex;
+        align-items:  center;
+        justify-content:  center;
+        float: right;
+    }
+    #buscador .fa-search:hover{
+        background: rgb(128, 128, 128);
+        color: rgb(255,255,255);
+    }
+    .search{
+        font-size: 20px !important;
+        height: 100%;
+        width: 87%;
+        background: transparent;
+        color: black;
+    }
+    .search:focus{
+        background: rgb(255,255,255);
+    }
+    .search:hover{
+        background: rgb(255,255,255);
+    }
+    #icon{
+    display: none;
     }
     #menu{
+        display: block;
+        float: right;
+        list-style: none;
+    }
+    #menu li{
         display: inline-block;
+    }
+    #menu li a{
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content:  center;
+        padding: 5px;
+        float: left;
+    }
+    #menu li a:hover{
+        background: rgb(240, 240, 240);
+    }
+    
+    .container{
         width: 100%;
     }
-    #menu li {
-        width:  100%;
+    .container h1{
+        text-align: center;
+        margin: 2%;
     }
-    #menu li:nth-child(1) {
-		border-top: 2px solid rgb(255,255,255); 
-	}
-    #menu li a{
-        border-bottom: 2px solid rgb(255,255,255);  
-        width:  100%;
+    @media (max-width:900px){
+        .logo{
+            border-bottom: 2px solid rgb(255,255,255);  
+            width: 100%;
+            padding: 3%;  
+        }
+        #icon {
+            height: 40px;
+            display: block;
+            margin-right: 4%;
+            border: 2px solid rgb(255, 255, 255);
+            border-radius: 10%;
+            position: absolute;
+            cursor: pointer;
+            width: 40px;
+            right: 0;
+            top: 20px;
+        }	
+        #icon span {
+            position: absolute;
+            left: 4px;
+            height: 3px;
+            background: rgb(255, 255, 255);;
+            width: 80%;
+        }
+        #icon span:nth-child(1) {
+            top: 25%;
+        }
+        #icon span:nth-child(2), #icon span:nth-child(3) {
+            top: 50%;
+        }
+        #icon span:nth-child(4) {
+            top: 75%;
+        }	
+        .activo span{
+            display: none;
+        }
+        .activo .derecha{
+            display: block;
+            transform: rotate(-45deg);
+            transition: 1s;
+            
+        }
+        .activo .izquierda{
+            transition: 1s;
+            display: block;
+            transform: rotate(45deg)
+        }
+        .invisible{
+            display: none;
+        }
+        #buscador{
+            
+            display: inline-block;
+            position:  static;
+            width: 90%;
+            margin: 20px 5%;
+        }
+        #menu{
+            display: inline-block;
+            width: 100%;
+        }
+        #menu li {
+            width:  100%;
+        }
+        #menu li:nth-child(1) {
+            border-top: 2px solid rgb(255,255,255); 
+        }
+        #menu li a{
+            border-bottom: 2px solid rgb(255,255,255);  
+            width:  100%;
+        }
     }
-}
-@media (max-width:700px){
-    .logo{
-        padding: 5% 20%;
+    @media (max-width:700px){
+        .logo{
+            padding: 5% 20%;
+        }
     }
-}
+    
