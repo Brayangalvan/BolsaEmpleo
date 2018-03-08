@@ -1,3 +1,9 @@
+.paginas .pagination:nth-child(1) {
+    display: block;
+}
+.paginas .pagination{
+    display: none;
+}
 .card__action-bar button {
     border: none;
     background: transparent;
@@ -70,6 +76,38 @@ color: rgb(129,129,129);
 .perfil{
     padding: 2px 20px;
 }
+
+.paginacion {
+	margin:20px 0;
+}
+ 
+.paginacion ul {
+	list-style:none;
+	text-align: center;
+}
+ 
+.paginacion ul li {
+	display:inline-block;
+	margin-right:10px;
+}
+ 
+.paginacion ul li span {
+	display:block;
+	padding:10px 20px;
+	color:#fff;
+	background: rgba(128,128,128,0.5);
+	text-decoration: none;
+}
+ 
+.paginacion ul li span:hover {
+	background: rgb(128,128,128);
+}
+ 
+.paginacion ul li .active {
+	background: rgb(128,128,128);
+	font-weight:bold;
+}
+
 
 @media screen and (max-width: 870px){
     .card--big {
