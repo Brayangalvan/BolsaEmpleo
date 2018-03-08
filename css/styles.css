@@ -91,6 +91,7 @@
         text-align: center;
         margin: 2%;
     }
+
     @media (max-width:900px){
         .logo{
             border-bottom: 2px solid rgb(255,255,255);  

@@ -4,10 +4,10 @@ menu = document.getElementById("menuresponsive");
 icono.addEventListener("click",esconder);
 
 function esconder() {
-    console.log("entra");
+
  var clase = menu.className;
+ 
  if (clase == "invisible"){
-     console.log("entra");
      menu.classList.remove("invisible");
      menu.classList.add("visible");
      icono.classList.add("activo");
