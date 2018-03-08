@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contáctenos</title>
     <link rel="stylesheet" href="../css/styles.css" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="../css/aboutUs.css" rel="stylesheet" type="text/css">
-    <title>Nosotros</title>
+    <link href="../css/contactUs.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -47,25 +47,28 @@
             </div>
         </nav>
     </header>
+
     <div class="container">
-        <h1>Nosotros</h1>
+        <h1>Contáctenos</h1>
         <div class="principal">
-            <div class="derecha">
-                <img src="../img/JIC.png" alt="Politecnico Jaime Isaza Cadavid">
-            </div>
             <div class="izquierda">
-                <h1>¿Quiénes Somos?</h1>
-                <br/>
-                <p>
-                    Somos una plataforma que presta un servicio intermediaron para que los estudiantes del Politécnico Jaime Isaza Cadavid puedan
-                    buscar prácticas con las grandes empresas nacionales e internacionales, tengan varias opciones para hacer
-                    las prácticas; encuentre emprsas que se acomoden tanto a tú perfil profesional como a tú perfil ético
-                    y te sientas a gusto con la empresa; todos los días trabajamos para hacernos conocer y que cada vez se
-                    han más las empresas las que publiquen más ofertas y así el politécnico se ha reconocido por ser una
-                    institución universitaria por tener una amplía variedad de empresas para hacer prácticas.
-                </p>
+                <form action="" method="GET">
+                    <h2>Formulario</h2>
+                    <label for="Name">Nombre</label>
+                    <input type="text" name="Name" id="Name">
+                    <label for="Email">Correo</label>
+                    <input type="email" name="Email" id="Email">
+                    <label for="Menssage">Mensaje</label>
+                    <textarea name="Menssage" rows="7" style="height: 25%;"></textarea>
+                    <input type="button" value="Enviar">
+                </form>
+            </div>
+            <div class="derecha">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5609.326004461512!2d-75.58027150514!3d6.211859267790445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429d458b9e19b%3A0xa41de7af3f199040!2sPolit%C3%A9cnico+Jaime+Isaza+Cadavid!5e0!3m2!1ses!2sco!4v1520536837002"
+                    height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
         </div>
+    </div>
     </div>
     <script src="../js/script.js"></script>
 </body>
