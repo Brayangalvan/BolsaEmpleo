@@ -19,3 +19,13 @@ function esconder() {
     icono.classList.remove("activo"); 
  }
 }
+
+function iniciosesion(entra){
+    inicio = document.getElementById("containerLogin");
+    inicio.style.display = 'block';
+    if(entra == "entrar"){
+        inicio.style.display = 'block';
+    }else if (entra == "cerrar"){
+        inicio.style.display = 'none';
+    }
+}

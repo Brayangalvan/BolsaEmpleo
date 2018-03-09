@@ -12,6 +12,20 @@
 </head>
 
 <body>
+        <section id="containerLogin">
+                <form action="" method="GET">
+                        <i class="fa fa-times"></i>
+                        <h2>Inicio De Sesión</h2>
+                        <label for="contrasena">Identificación</label>
+                        <input type="text" name="contrasena" id="contrasena">
+                        <label for="Email">Contraseña</label>
+                        <input type="text" name="contrasena" id="contrasena">
+                        <div class="botones">
+                        <input type="button" value="Entrar">
+                        <input type="button" onclick="iniciosesion('cerrar')" value="Cancelar">
+                        </div>
+                    </form>
+        </section>
     <header>
         <nav>
             <div class="logo">
@@ -41,7 +55,7 @@
                         <a href="contactUs.html">Contáctenos</a>
                     </li>
                     <li>
-                        <a href="">Inicio de Sesión</a>
+                        <a onclick="iniciosesion('entrar')">Inicio de Sesión</a>
                     </li>
                 </ul>
             </div>
