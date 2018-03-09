@@ -12,6 +12,20 @@
 </head>
 
 <body>
+        <section id="containerLogin">
+                <form action="" method="GET">
+                        <i class="fa fa-times"></i>
+                        <h2>Inicio De Sesión</h2>
+                        <label for="contrasena">Identificación</label>
+                        <input type="text" name="contrasena" id="contrasena">
+                        <label for="Email">Contraseña</label>
+                        <input type="text" name="contrasena" id="contrasena">
+                        <div class="botones">
+                        <input type="button" value="Entrar">
+                        <input type="button" onclick="iniciosesion('cerrar')" value="Cancelar">
+                        </div>
+                    </form>
+        </section>
     <header>
         <nav>
             <div class="logo">
@@ -27,7 +41,6 @@
             </div>
             <div id="menuresponsive" class="invisible">
                 <div id="buscador">
-                    <i class="fa fa-search"></i>
                     <input class="search" type="search" name="search_ofertas" id="search_Ofertas">
                 </div>
                 <ul id="menu">
@@ -41,7 +54,7 @@
                         <a href="html/contactUs.html">Contáctenos</a>
                     </li>
                     <li>
-                        <a href="">Inicio de Sesión</a>
+                        <a onclick="iniciosesion('entrar')" href="#">Inicio de Sesión</a>
                     </li>
                 </ul>
             </div>
