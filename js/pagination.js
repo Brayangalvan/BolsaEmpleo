@@ -40,6 +40,3 @@ function proxima(){
     }
 }
 
-function cambiarpaginacion(num){
-       
-}

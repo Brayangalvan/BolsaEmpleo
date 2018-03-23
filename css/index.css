@@ -68,17 +68,22 @@ color: rgb(129,129,129);
 }
 
 .card--big {
-    display: inline-block;
+    display: block;
     height: 404px;
     margin-left: 4%;
     margin-top: 3% ;
+    float: left;
 }
 .perfil{
     padding: 2px 20px;
 }
 
 .paginacion {
-	margin:20px 0;
+    display: flex;
+    float:  left;
+    margin: 20px 5%;
+    width: 90%;
+    justify-content: center;
 }
  
 .paginacion ul {
@@ -108,6 +113,15 @@ color: rgb(129,129,129);
 	font-weight:bold;
 }
 
+#containerPostulate{
+    display: none;
+    width: 100%;
+    height: 150vh;
+    background: rgba(0,0,0,0.9);
+    position: fixed;
+    z-index: 1000;
+    padding: 10%;
+}
 
 @media screen and (max-width: 870px){
     .card--big {
